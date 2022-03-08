@@ -1,13 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-// Title:              Board
-// Files:              None
-// Quarter:            CSE 8B Spring 2021
-//
-// Author:             Jonathan Tran
-// Email:              jot002@ucsd.edu
-// Instructor's Name:  Professor Allos
-//
-///////////////////////////////////////////////////////////////////////////////
 /**
  * Sample Board
  * <p/>
@@ -78,8 +68,6 @@ public class Board {
 
     /**
      * Return the current board as a 2D grid String.
-     * You should call this method from PA5Tester
-     * or whenever you debug your code
      *
      * Use this format to construct board
      *
@@ -114,9 +102,6 @@ public class Board {
 
     /**
      * Print the current board as a 2D grid.
-     * You should call this method from PA5Tester
-     * or whenever you debug your code
-     *
      *
      * @param direction the tiles will move
      */
@@ -133,9 +118,7 @@ public class Board {
         // return the string representation
         return stringBoard;
     }
-    // tips for future: this refers to the class--board object. 
-    // inside Board, we have characteristics of the class -- this.method()
-    
+ 
     /**
      * The purpose of this method is to check to see if the movement of
      * the tiles in any direction can actually take place. It does not move the
